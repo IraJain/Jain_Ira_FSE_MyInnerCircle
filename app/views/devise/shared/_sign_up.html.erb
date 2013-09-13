@@ -1,0 +1,50 @@
+<!-- Sign up form for the main page -->
+
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <%= devise_error_messages! %>
+      <div class = left><h4>Sign up .. It's Free </h4></div>
+   </div>
+
+
+  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name),:html => {:class => "form-inline"}) do |f| %>
+    <div class="row-fluid">
+          <%= f.text_field :first_name,:id=>'First Name', :class=>"input-medium", :placeholder => "First Name" %>
+          <%= f.text_field :last_name ,:id=>'Last Name', :class=>"input-medium", :placeholder => "Last Name"%>         <br /><br />
+    </div>
+
+    <div class="row-fluid">
+          <%= f.email_field :email,:id=>'SignUp_Email', :class=>"input-xlarge", :placeholder => "Enter Email Id" %> <br /><br />
+    </div>
+
+    <div class="row-fluid">
+          <%= f.password_field :password,:id=>'SignUp_Password',:class=>"input-medium", :placeholder => "Password"%>  <br /><br />
+    </div>
+
+    <div class="row-fluid">
+          <%= f.password_field :password_confirmation,:id=>'Confirmation',:class=>"input-medium",:placeholder => "Confirm Password" %> <br /> <br />
+    </div>
+
+    <div class="row-fluid">
+         <%= f.submit "Sign up",:id => 'Sign Up',:class=> "btn btn-primary" %>
+    </div>
+
+
+  <% end %>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

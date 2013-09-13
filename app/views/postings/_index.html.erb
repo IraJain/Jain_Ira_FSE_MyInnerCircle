@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <% if @posting.empty? %>
+      <p> No Posting to show....</p>
+  <% else %>
+      <% @posting.each do |posting| %>
+          <tr>
+            <td><%= link_to  "(" + User.find(posting.user_id).first_name + " " + User.find(posting.user_id).last_name + ") - "   + posting.title, posting %></td>
+          </tr>
+      <% end %>
+  <% end %>
+</table>
+
+
+

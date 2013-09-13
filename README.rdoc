@@ -1,0 +1,23 @@
+MyCircle is an application that focusses on making postings in a private circle.
+A user needs to login and add friends to see their postings.
+He also has an option to see all postings.
+He can add/edit/delete his own postings.
+
+Foreign Key relation exists in two places
+1. Between users and freinds table
+2. Between users and postings table
+
+For sample run
+1. Go to localhost
+2. Enter email as 'ira.jain7@gmail.com'
+3. Enter password as 'hello123'
+
+Other sample users
+1. john_lennon@test.com/hello123
+2. paul_mccartney@test.com/hello123
+
+
+Ruby related information
+Ruby version - 1.9.3 p448
+Rails version 3.2.14
+

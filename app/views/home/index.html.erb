@@ -1,0 +1,44 @@
+<!-- Index page displays postings and friends, adds friend -->
+<div id ="show_error">
+
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
+
+    <div class="span3" >
+
+      <div class="row-fluid" style="border-bottom: 1px solid #ccc;" >
+        <br /><br />
+      <%= button_to 'Add Posting', new_posting_path, :method => "get" %>
+       </div>
+
+      <div class="row-fluid" style=" border-bottom: 1px solid #ccc;">
+      <h4>Add friend</h4>
+      <%= render "friends/form" %>
+      </div>
+
+      <div class="row-fluid">
+      <h4>My Friends</h4>
+      <%= render "friends/index" %>
+      </div>
+    </div>
+
+
+    <div class="span8 offset1" style=" padding-left: 20px; border-left: 1px solid #ccc;">
+      <h3> POSTINGS</h3>
+      <div class="row-fluid" style="border-bottom: 1px solid #ccc;">
+      <%= render "radio" %>
+        <br />
+      </div>
+
+      <div class="row-fluid">
+
+      <%= render "postings/index" %>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+

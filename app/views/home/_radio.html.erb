@@ -1,0 +1,9 @@
+<!-- Radio button selection form for the index page -->
+
+<%= form_tag :action => 'index', :method => "post" do %>
+
+<%= radio_button_tag :radio_input ,:friend, @state_friend, :onclick => "this.parentNode.submit();"%>  Friend Postings
+<%= radio_button_tag :radio_input ,:all, @state_all, :onclick => "this.parentNode.submit();"%>  All Postings
+<%= radio_button_tag :radio_input ,:own, @state_own, :onclick => "this.parentNode.submit();"%>  My Postings
+
+<% end %>

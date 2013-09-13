@@ -1,0 +1,83 @@
+<div class="container-fluid">
+<div class="row">
+
+  <div class="span3" >
+    <div class="row">
+      <%= User.find(@posting.user_id).first_name + " " + User.find(@posting.user_id).last_name %>
+    </div>
+
+    <div class="row">
+      <%= User.find(@posting.user_id).email %>
+    </div>
+
+    <div class="row">
+      <%= @posting.location %>
+    </div>
+
+    <div class="row">
+      <%= @posting.phone %>
+    </div>
+     <br /><br />
+    <div class="row">
+      Posted at : <%= @posting.created_at.to_date %>
+    </div>
+
+    <div class="row">
+      Updated at: <%= @posting.updated_at.to_date %>
+    </div>
+
+  </div>
+
+
+
+  <div class="span7" style=" padding-left: 40px; border-left: 1px solid #ccc;">
+
+    <div class="row">
+    <h5> <%= @posting.title %>    </h5>
+    </div>
+    <br /><br /><br />
+    <div class="row">
+      <pre> <%= @posting.description %></pre>
+    </div>
+
+  </div>
+
+  </div>
+    <br />
+  <div class="row">
+    <div class="span3" >
+    <%= link_to "Back", home_index_path %>
+      </div>
+    <div class="span7 " style=" padding-left: 40px;" >
+    <% if current_user.id == @posting.user_id %>
+        <%= link_to 'Edit Post', edit_posting_path(@posting) %> |
+        <%= link_to 'Delete Post', @posting, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <% end %>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

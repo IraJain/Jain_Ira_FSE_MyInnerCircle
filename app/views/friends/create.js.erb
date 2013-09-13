@@ -1,0 +1,11 @@
+
+
+<% if @friend.errors.any? %>
+<% flash[:notice] = @friend.errors.full_messages.join(", ") %>
+
+$('#show_error').html("<%= escape_javascript(render partial: 'layouts/error' ) %>")
+
+<% else %>
+<% @friends = current_user.friends %>
+$('#show_friends').html("<%= escape_javascript(render partial: 'friends/index' ) %>")
+<% end %>
