@@ -2,48 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5345fad-2e87-4f06-987f-f237234d86d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/friends.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/postings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/friends_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/home_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/functional/postings_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/integration/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/performance/browsing_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/friend_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/friends_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/home_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/helpers/postings_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/posting_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/user_test.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/fixtures/.gitkeep" afterPath="$PROJECT_DIR$/spec/views/devise/sessions/new.html.erb_spec.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/functional/.gitkeep" afterPath="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_error.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_error.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/friends/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/friends/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/postings/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/postings/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_head_user.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_head_user.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/friends/_index.html.erb" afterPath="$PROJECT_DIR$/app/views/friends/_index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/circle_test.iml" afterPath="$PROJECT_DIR$/.idea/circle_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/friends/create.js.erb" afterPath="$PROJECT_DIR$/app/views/friends/create.js.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/friends_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/friends_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/postings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/postings_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/postings_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/postings_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="circle_test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379097812802" ignored="false" />
+    <file path="/Gemfile" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379145006983" ignored="false" />
     <file path="/20130904073110_devise_create_users.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378280285289" ignored="false" />
     <file path="/new.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378882251351" ignored="false" />
     <file path="/user.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378951768242" ignored="false" />
@@ -109,7 +73,17 @@
     <favorites_list name="circle_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="31" selection-start="271" selection-end="271" vertical-scroll-proportion="0.29061103">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -131,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/controllers/friends_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" />
         <option value="$PROJECT_DIR$/spec/views/devise/sessions/new.html.erb_spec.rb" />
         <option value="dbtable:/fa75cdea/97f46212-db0f-47d4-8557-b0684053e8d4/..users" />
@@ -147,6 +120,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/doc/README_FOR_APP" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -819,7 +793,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="22" width="1328" height="796" extended-state="0" />
+    <frame x="14" y="22" width="1328" height="796" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -973,13 +947,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.rspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -988,6 +955,13 @@
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="20" selection-start="874" selection-end="874" vertical-scroll-proportion="0.66109425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="271" selection-end="271" vertical-scroll-proportion="0.29061103">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -7,7 +7,7 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.7'
+#gem 'sqlite3', '1.3.7'
 #gem 'pg'
 gem 'devise', '3.0.3'
 
@@ -29,11 +29,13 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
+  gem 'sqlite3', '1.3.7'
 end
 
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '4.1.0'
+  gem 'sqlite3', '1.3.7'
 end
 
 group :production do
