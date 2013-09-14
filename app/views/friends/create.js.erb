@@ -1,7 +1,7 @@
 <% if @friend.errors.any? %>
 <% flash.now[:notice] = @friend.errors.full_messages.join(", ") %>
 
-$('#user_err').html("<%= escape_javascript(render partial: 'layouts/error' ) %>")
+$('#show_err').html("<%= escape_javascript(render partial: 'layouts/error' ) %>")
 
 <% else %>
 <% @friends = current_user.friends %>
