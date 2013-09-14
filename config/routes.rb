@@ -1,15 +1,10 @@
 CircleTest::Application.routes.draw do
-  get "home/index"
-  post "home/index"
 
   resources :friends
-
-
   resources :postings
   devise_for :users
-  #get 'registrations/sign_up', to: redirect('sessions/sign_in')
-
-  #root to: "home#index"
+  get "home/index"
+  post "home/index"
 
 
   devise_scope :user do
@@ -17,8 +12,6 @@ CircleTest::Application.routes.draw do
       root :to => 'home#index'
     end
     root to: "devise/sessions#new"
-
-
   end
 
 

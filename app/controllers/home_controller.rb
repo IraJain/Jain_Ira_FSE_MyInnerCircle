@@ -24,6 +24,7 @@ class HomeController < ApplicationController
           @posting += Posting.find_all_by_user_id(single_friend.friend_id)
         end
 
+
         @state_all = false
         @state_friend = true
         @state_own = false

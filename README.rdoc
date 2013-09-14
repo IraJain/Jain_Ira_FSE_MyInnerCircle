@@ -1,14 +1,26 @@
-MyCircle is an application that focusses on making postings in a private circle.
-A user needs to login and add friends to see their postings.
+Introduction
+=============
+MyInnerCircle is an application that focusses on making postings in a private circle. A user needs to login and add friends to see their postings.
 He also has an option to see all postings.
-He can add/edit/delete his own postings.
+He can add/view/edit/delete his own postings.
+
+Structure
+=========
+Controllers : Devise(for users), Friends (Friend creation/listing), Postings (Create/Show/Update/Delete) REST api
 
 Foreign Key relation exists in two places
-1. Between users and freinds table
+1. Between users and friends table
 2. Between users and postings table
 
-For sample run
-1. Go to localhost
+3 db migrations used to build the database incrementally.
+
+
+Running Information
+===================
+Github Repositry URL :
+
+For sample run:
+1. Go to www.myinnercircle.herokuapp.com  or localhost:3000
 2. Enter email as 'ira.jain7@gmail.com'
 3. Enter password as 'hello123'
 
@@ -17,7 +29,37 @@ Other sample users
 2. paul_mccartney@test.com/hello123
 
 
-Ruby related information
+Testing
+========
+To run tests : Go to Tools, Run rake task, Select specs.
+This will run all the tests in spec folder
+
+Test cases:  Testing has been done using RSpec . Test cases reside in folder spec.
+Covered cases: spec/controllers -> for functional tests
+spec/models -> unit tests
+spec/requests -> integration tests
+spec/routings -> routing tests
+spec/views -> views tests
+Used Factory girl to generate data, wherever possible.
+
+
+XML testing:
+===========
+1.Login using credentials -> email: ira.jain7@gmail.com , pwd: hello123
+2.For browser verification use address :
+3. Rspec test for XML in REST api - Postings->  postings_controller_spec under specification "describe "GET show" "
+
+AJAX request:
+=============
+Implemented by dynamicaly rendering friends listing in home page without refreshing the whole page.
+Refer to  AJAX request in views/friends/form which calls the 'add friend' form with remote: true.
+Friends controller recieves this AJAX request and calls views/friends/create.js.erb to render partial index.html.erb
+
+Ruby related information:
+=========================
 Ruby version - 1.9.3 p448
 Rails version 3.2.14
+
+
+
 

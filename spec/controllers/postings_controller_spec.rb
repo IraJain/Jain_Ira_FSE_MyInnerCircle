@@ -6,12 +6,12 @@ describe PostingsController do
     @request.env["devise.mapping"] = Devise.mappings[:user]
     @user = FactoryGirl.create(:user)
     sign_in @user
-
   end
 
   def table_data_post
     {title: "testing title", description: "this is desc for testing post controller"}
   end
+
 
   describe "GET new" do
     it "assigns a new posting as @posting" do
@@ -66,6 +66,14 @@ describe PostingsController do
       get :show, {:id => posting.to_param}
       assigns(:posting).should eq(posting)
     end
+
+    it "returns an XML format" do
+      posting = Posting.create! table_data_post
+      get :show, {:id => posting.to_param, format: 'xml'}
+      assert_tag :tag => "posting"
+    end
+
+
   end
 
   describe "PUT update" do

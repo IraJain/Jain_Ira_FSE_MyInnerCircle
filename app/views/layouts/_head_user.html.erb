@@ -9,13 +9,15 @@
           <%= link_to "MyInnerCircle", home_index_path, id: "logo" %>
         </div>
 
-        <div class="span2 offset1" >
+        <div class="span2 offset2" >
           Welcome <%= current_user.first_name %>
         </div>
 
-        <div class="span1 offset1" >
-          <%= link_to "Sign out", destroy_user_session_path, :method => :delete, :id=>'Sign out'%>
+        <div class="span1 " >
+
+           <%= link_to "Sign out", destroy_user_session_path, :method => :delete, :id=>'Sign out' %>
         </div>
+
       </div>
     </div>
   </div>

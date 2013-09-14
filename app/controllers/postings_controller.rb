@@ -1,67 +1,57 @@
 class PostingsController < ApplicationController
   before_filter :authenticate_user!
 
+   respond_to :html, :xml, :json
 
   def index
+    #respond_with(@posting =Posting.all)
   end
 
-  # GET /postings/1
+  # show particular posting. Posting Id passed as a param
   def show
     @posting = Posting.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-    end
+    respond_with(@posting)
   end
 
-  # GET /postings/new
+  # Create a blank new posting object
   def new
-  @posting = Posting.new
-    respond_to do |format|
-     format.html # new.html.erb
-   end
+    @posting = Posting.new
+    respond_with(@posting)
   end
 
-  # GET /postings/1/edit
+  # Edit the selected posting
   def edit
     @posting = Posting.find(params[:id])
   end
 
+ # Create new posting
   def create
 
     #Building relationship
     @posting = current_user.postings.new(params[:posting])
 
-    respond_to do |format|
-      if @posting.save
-    #    format.html {render :partial => 'index', object: @posting, notice: 'Posting was successfully created.'}
-       format.html { redirect_to home_index_path, notice: 'Posting was successfully created.' }
-      else
-        format.html { render action: "new" }
-      end
-    end
+    flash.now[:notice] = 'Posting was successfully created.' if @posting.save
+    respond_with(@posting,:location => home_index_url)
   end
 
-  # PUT /postings/1
+  # Update posting
   def update
     @posting = Posting.find(params[:id])
-
-    respond_to do |format|
-      if @posting.update_attributes(params[:posting])
-        format.html { redirect_to home_index_path, notice: 'Posting was successfully updated.' }
-      else
-        format.html { render action: "edit" }
-      end
-    end
+    flash.now[:notice] = 'Posting was successfully updated.' if @posting.update_attributes(params[:posting])
+    respond_with(@posting,:location => home_index_url)
   end
 
-  # DELETE /postings/1
+  # DELETE  particular posting
   def destroy
     @posting = Posting.find(params[:id])
     @posting.destroy
 
-    respond_to do |format|
-      format.html { redirect_to home_index_url }
-    end
+    respond_with(@posting,:location => home_index_url)
   end
+
 end
+
+
+
+
+

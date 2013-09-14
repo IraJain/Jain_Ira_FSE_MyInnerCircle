@@ -7,8 +7,8 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'sqlite3', '1.3.7'
-gem 'pg'
+gem 'sqlite3', '1.3.7'
+#gem 'pg'
 gem 'devise', '3.0.3'
 
 # Gems used only for assets and not required
@@ -34,6 +34,10 @@ end
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '4.1.0'
+end
+
+group :production do
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
