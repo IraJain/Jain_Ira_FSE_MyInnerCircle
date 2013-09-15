@@ -28,6 +28,10 @@ Other sample users
 1. john_lennon@test.com/hello123
 2. paul_mccartney@test.com/hello123
 
+To add friends:
+1. manu.jain26@gmail.com
+2.
+
 
 Testing
 ========

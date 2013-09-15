@@ -18,7 +18,7 @@ FactoryGirl.define do
   factory :posting do
     title "test title posting "
     description "description for test case"
-    phone    123456
+    phone    "123456"
     location   "palo alto"
 
   end
