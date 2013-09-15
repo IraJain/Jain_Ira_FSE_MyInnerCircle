@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b5345fad-2e87-4f06-987f-f237234d86d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/postings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/postings_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="circle_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,8 +16,8 @@
     <file path="/test.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378346110194" ignored="false" />
     <file path="/routes.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378963983861" ignored="false" />
     <file path="/application_controller.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378886006533" ignored="false" />
-    <file path="/Dummy.txt" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379274758635" ignored="false" />
-    <file path="/postings_controller.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379133126896" ignored="false" />
+    <file path="/Dummy.txt" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379281572899" ignored="false" />
+    <file path="/postings_controller.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379278439327" ignored="false" />
     <file path="/index.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379270962343" ignored="false" />
     <file path="/posting.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379057701052" ignored="false" />
     <file path="/friend.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378577990775" ignored="false" />
@@ -30,7 +32,7 @@
     <file path="/_sign_up.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378960105597" ignored="false" />
     <file path="/_text.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379056975122" ignored="false" />
     <file path="/edit.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378623846568" ignored="false" />
-    <file path="/README.rdoc" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379271972449" ignored="false" />
+    <file path="/README.rdoc" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379281864001" ignored="false" />
     <file path="/create.js.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379271079174" ignored="false" />
     <file path="/_error.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379098441773" ignored="false" />
     <file path="/custom.css.scss" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379149201989" ignored="false" />
@@ -74,17 +76,7 @@
     <favorites_list name="circle_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.rdoc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="39" selection-start="644" selection-end="644" vertical-scroll-proportion="0.387538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/doc/README_FOR_APP" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -121,6 +112,7 @@
         <option value="$PROJECT_DIR$/app/views/postings/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/friends/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/postings_controller.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
@@ -164,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope">
         <subPane subId="Tests">
           <PATH>
@@ -185,8 +176,23 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Jain_Ira_FSE_MyInnerCircle">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -850,17 +856,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="22" width="1328" height="796" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.40772533" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5422031" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32137287" sideWeight="0.40772533" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3377535" sideWeight="0.40656206" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3662375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59227467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59343797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1017,12 +1023,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/postings/_index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="11" column="31" selection-start="382" selection-end="382" vertical-scroll-proportion="0.75342464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/postings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="4" selection-start="136" selection-end="136" vertical-scroll-proportion="0.3515625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="644" selection-end="644" vertical-scroll-proportion="0.387538">
+        <state line="70" column="52" selection-start="2424" selection-end="2424" vertical-scroll-proportion="1.5957447">
           <folding />
         </state>
       </provider>

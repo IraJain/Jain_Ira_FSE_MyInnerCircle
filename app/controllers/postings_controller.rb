@@ -4,7 +4,7 @@ class PostingsController < ApplicationController
    respond_to :html, :xml, :json
 
   def index
-    #respond_with(@posting =Posting.all)
+   # respond_with(@posting =Posting.all)
   end
 
   # show particular posting. Posting Id passed as a param

@@ -22,9 +22,10 @@ Running Information
 Github Repositry URL : https://github.com/IraJain/Jain_Ira_FSE_MyInnerCircle
 
 For sample run:
-1. Go to www.myinnercircle.herokuapp.com  or localhost:3000
+1. Go to ->      myinnercircle.herokuapp.com  or localhost:3000
 2. Enter email as 'ira.jain7@gmail.com'
 3. Enter password as 'hello123'
+4. Press button 'Sign in'
 
 Other sample users:
 1. john_lennon@test.com/hello123
