@@ -24,13 +24,13 @@ For sample run:
 2. Enter email as 'ira.jain7@gmail.com'
 3. Enter password as 'hello123'
 
-Other sample users
+Other sample users:
 1. john_lennon@test.com/hello123
-2. paul_mccartney@test.com/hello123
+2. adam.wills@gmail.com/hello123
 
-To add friends:
-1. manu.jain26@gmail.com
-2.
+To add friends on home page:
+1. john_mister@test.com
+2. neha.sharma@yahoo.com
 
 
 Testing
@@ -57,7 +57,8 @@ AJAX request:
 =============
 Implemented by dynamicaly rendering friends listing in home page without refreshing the whole page.
 Refer to  AJAX request in views/friends/form which calls the 'add friend' form with remote: true.
-Friends controller recieves this AJAX request and calls views/friends/create.js.erb to render partial index.html.erb
+Friends controller recieves this AJAX request and calls views/friends/create.js.erb to
+ render 2 partials-> friends listing and postings listing
 
 Ruby related information:
 =========================

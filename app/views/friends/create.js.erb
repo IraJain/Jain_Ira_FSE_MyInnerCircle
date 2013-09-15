@@ -6,4 +6,13 @@ $('#show_err').html("<%= escape_javascript(render partial: 'layouts/error' ) %>"
 <% else %>
 <% @friends = current_user.friends %>
 $('#show_friends').html("<%= escape_javascript(render partial: 'friends/index' ) %>")
+
+<%
+        @posting =  []
+       @friends.each do |single_friend|
+          @posting += Posting.find_all_by_user_id(single_friend.friend_id)
+        end
+%>
+$('#show_postings').html("<%= escape_javascript(render partial: 'postings/index' ) %>")
+
 <% end %>
