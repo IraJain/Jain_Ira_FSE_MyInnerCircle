@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5345fad-2e87-4f06-987f-f237234d86d9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="circle_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +14,7 @@
     <file path="/test.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378346110194" ignored="false" />
     <file path="/routes.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378963983861" ignored="false" />
     <file path="/application_controller.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378886006533" ignored="false" />
-    <file path="/Dummy.txt" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379265536010" ignored="false" />
+    <file path="/Dummy.txt" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379269628347" ignored="false" />
     <file path="/postings_controller.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379133126896" ignored="false" />
     <file path="/index.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379179263896" ignored="false" />
     <file path="/posting.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379057701052" ignored="false" />
@@ -55,6 +50,7 @@
     <file path="/new.html.erb_spec.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379118115954" ignored="false" />
     <file path="/README_FOR_APP" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379143453430" ignored="false" />
     <file path="/a.dummy" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379266714064" ignored="false" />
+    <file path="/20130915182715_change_description_for_postings.rb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379269667419" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_error.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/doc/README_FOR_APP" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -116,6 +111,7 @@
         <option value="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/db/migrate/20130915182715_change_description_for_postings.rb" />
       </list>
     </option>
   </component>
@@ -187,15 +183,25 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
+            <PATH_ELEMENT USER_OBJECT="db">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="postings">
+            <PATH_ELEMENT USER_OBJECT="circle_test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="db">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="migrate">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -372,7 +378,7 @@
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://localhost:3000/" />
   </component>
-  <component name="RunManager" selected="Rails.Development: circle_test">
+  <component name="RunManager" selected="Rake.spec">
     <configuration default="false" name="postings_routing_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="circle_test" />
@@ -520,7 +526,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
         <env name="RAILS_ENV" value="test" />
-        <env name="VERSION" value="20130915171903" />
+        <env name="VERSION" value="20130915182715" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
@@ -921,13 +927,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917318" sideWeight="0.40772533" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917318" sideWeight="0.40772533" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5422031" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31591263" sideWeight="0.40772533" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3662375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914164" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59227467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.59227467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904148" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1031,18 +1037,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="649" selection-end="649" vertical-scroll-proportion="1.849315" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130915171903_change_phone_for_postings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15648286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/posting.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1146,6 +1140,20 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130915182715_change_description_for_postings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="0.47511312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130915171903_change_phone_for_postings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="56" selection-end="146" vertical-scroll-proportion="0.05836576">
           <folding />
         </state>
       </provider>
