@@ -12,7 +12,9 @@ Foreign Key relation exists in two places
 1. Between users and friends table
 2. Between users and postings table
 
-3 db migrations used to build the database incrementally.
+db migrations used to build the database incrementally.
+    3 Db migartions for 3 tables
+    2 db migrations to change the columns
 
 
 Running Information
@@ -36,7 +38,7 @@ To add friends on home page:
 Testing
 ========
 To run tests : Go to Tools, Run rake task, Select specs.
-This will run all the tests in spec folder
+(This will run all the 41 tests in spec folder)
 
 Test cases:  Testing has been done using RSpec . Test cases reside in folder spec.
 Covered cases: spec/controllers -> for functional tests
@@ -50,15 +52,16 @@ Used Factory girl to generate data, wherever possible.
 XML testing:
 ===========
 1.Login using credentials -> email: ira.jain7@gmail.com , pwd: hello123
-2.For browser verification use address :
-3. Rspec test for XML in REST api - Postings->  postings_controller_spec under specification "describe "GET show" "
+2.For browser verification use address : http://myinnercircle.herokuapp.com/postings/5.xml
+3.For local host verification use address: http://localhost:3000/postings/13.xml
+4.Rspec test for XML in REST api - Postings->  postings_controller_spec under specification "describe "GET show" "
 
 AJAX request:
 =============
-Implemented by dynamicaly rendering friends listing in home page without refreshing the whole page.
+Implemented by dynamicaly rendering friends listing and realated postings in home page without refreshing the whole page.
 Refer to  AJAX request in views/friends/form which calls the 'add friend' form with remote: true.
 Friends controller recieves this AJAX request and calls views/friends/create.js.erb to
- render 2 partials-> friends listing and postings listing
+render 2 partials-> friends listing and postings listing
 
 Ruby related information:
 =========================

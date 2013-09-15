@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5345fad-2e87-4f06-987f-f237234d86d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/friends/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/friends/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/postings/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/postings/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/friends/create.js.erb" afterPath="$PROJECT_DIR$/app/views/friends/create.js.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
     </list>
     <ignored path="circle_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
     <file path="/_sign_up.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378960105597" ignored="false" />
     <file path="/_text.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379056975122" ignored="false" />
     <file path="/edit.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1378623846568" ignored="false" />
-    <file path="/README.rdoc" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379270850238" ignored="false" />
+    <file path="/README.rdoc" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379271972449" ignored="false" />
     <file path="/create.js.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379271079174" ignored="false" />
     <file path="/_error.html.erb" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379098441773" ignored="false" />
     <file path="/custom.css.scss" changelist="b5345fad-2e87-4f06-987f-f237234d86d9" time="1379149201989" ignored="false" />
@@ -111,11 +107,11 @@
         <option value="$PROJECT_DIR$/spec/views/postings/new.html.erb_spec.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20130915182715_change_description_for_postings.rb" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/views/friends/create.js.erb" />
         <option value="$PROJECT_DIR$/app/views/postings/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/friends/_form.html.erb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -1054,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rdoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="55" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.7066869">
+        <state line="67" column="33" selection-start="2318" selection-end="2318" vertical-scroll-proportion="1.5273557">
           <folding />
         </state>
       </provider>
