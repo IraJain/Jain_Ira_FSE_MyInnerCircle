@@ -19,7 +19,7 @@ db migrations used to build the database incrementally.
 
 Running Information
 ===================
-Github Repositry URL :
+Github Repositry URL : https://github.com/IraJain/Jain_Ira_FSE_MyInnerCircle
 
 For sample run:
 1. Go to www.myinnercircle.herokuapp.com  or localhost:3000
