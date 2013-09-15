@@ -28,6 +28,7 @@
     <data-source source="LOCAL" name="Rails circle_test: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="7318c916-4f2a-4c5b-bef2-8f0ec10e1fc2">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:circle_production</jdbc-url>
+      <user-name>myapp</user-name>
       <libraries>
         <library>
           <url>jar://$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar!/</url>
