@@ -13,13 +13,13 @@ Foreign Key relation exists in two places
 2. Between users and postings table
 
 db migrations used to build the database incrementally.
-    3 Db migartions for 3 tables
+    3 Db migrations for 3 tables
     2 db migrations to change the columns
 
 
 Running Information
 ===================
-Github Repositry URL : https://github.com/IraJain/Jain_Ira_FSE_MyInnerCircle
+Github Repository URL : https://github.com/IraJain/Jain_Ira_FSE_MyInnerCircle
 
 For sample run:
 1. Go to ->      myinnercircle.herokuapp.com  or localhost:3000
@@ -59,9 +59,9 @@ XML testing:
 
 AJAX request:
 =============
-Implemented by dynamicaly rendering friends listing and realated postings in home page without refreshing the whole page.
+Implemented by dynamically rendering friends listing and related postings in home page without refreshing the whole page.
 Refer to  AJAX request in views/friends/form which calls the 'add friend' form with remote: true.
-Friends controller recieves this AJAX request and calls views/friends/create.js.erb to
+Friends controller receives this AJAX request and calls views/friends/create.js.erb to
 render 2 partials-> friends listing and postings listing
 
 Ruby related information:
