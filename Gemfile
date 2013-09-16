@@ -25,21 +25,20 @@ end
 
 gem 'jquery-rails'
 
-
+gem 'sqlite3', '1.3.7'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
-  gem 'sqlite3', '1.3.7'
+
 end
 
 group :test do
   gem 'capybara', '1.1.2'
   gem 'factory_girl_rails', '4.1.0'
-  gem 'sqlite3', '1.3.7'
 end
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
